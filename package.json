@@ -1,17 +1,38 @@
 {
-  "name": "desafio-ewally",
+  "name": "recomendador",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto Integrador ",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "start": "clear && node ./src/index.js"
+    "start": "node ./build/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev ./src/index.ts",
+    "test": "jest"
   },
   "author": "Glaucia Sonda",
   "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.0",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/knex": "^0.16.1",
+    "@types/node": "^18.14.5",
+    "@types/uuid": "^9.0.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.0.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "knex": "^2.4.2",
+    "sqlite3": "^5.1.4",
+    "uuid": "^9.0.0"
   }
 }

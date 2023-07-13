@@ -1,7 +1,7 @@
 {
   "name": "recomendador",
   "version": "1.0.0",
-  "description": "Projeto Integrador ",
+  "description": "Recomendador de Amigos ",
   "main": "index.js",
   "scripts": {
     "start": "node ./build/index.js",

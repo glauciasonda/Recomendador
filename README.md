@@ -1,4 +1,4 @@
-# Desafio Ewally - Recomendador de Amigos
+# Recomendador de Amigos
 
 ## Técnologias utilizadas: 
 <li> Node v9.5.0</li>
